@@ -26,7 +26,7 @@ Route::middleware(['api.cors'])->group(function () {
         return $request->user();
     });
     Route::prefix('users')->group(function () {
-        Route::get('/', 'Api\UserController@getUsers')->name('get.users');
+        Route::get('/', 'UserController@getUsers')->name('get.users');
     });
     // Default 404 route for APIs, make sure to always keep this at the end of file.
     Route::any('/{any}', function () {
