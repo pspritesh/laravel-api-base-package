@@ -9,7 +9,7 @@
 
 ## Laravel API Base Package
 
-This is the base setup of Laravel framework which contains normal Laravel package used to develop MVC applications.
+This is the base setup of Laravel framework which contains Laravel API package used to develop decoupled applications.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
